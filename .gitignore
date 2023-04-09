@@ -21,4 +21,4 @@ serving_dir
 **.csv
 **.parquet
 **fhvhv/
-**.part*
+**.zones/

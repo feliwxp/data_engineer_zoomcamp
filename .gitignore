@@ -5,7 +5,12 @@
 **.terraform
 **.terraform.lock.*
 **.json
+**.json.gz
 **logs/
+**plugins/
+**data/
+**ny_taxi_postgres_data/
+**data_pgadmin/
 **.env
 **__pycache__/
 .history
@@ -15,3 +20,5 @@ serving_dir
 /guide
 **.csv
 **.parquet
+**fhvhv/
+**.part*

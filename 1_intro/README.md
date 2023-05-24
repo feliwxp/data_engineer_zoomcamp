@@ -1,7 +1,10 @@
 
 
 # 1_Intro
-Creating a simple Docker, postgres
+- Ingest data into postgres database on postgres/pgadmin docker container network
+- Run some SQL commands to analyse data
+- Set up datalake and data warehouse on AWS and GCP using terraform
+
 
 ## Architecture
 

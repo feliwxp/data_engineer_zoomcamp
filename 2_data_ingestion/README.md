@@ -121,7 +121,7 @@ This DAG will download the NYC taxi trip data, convert it to parquet, upload it 
 
 Select the DAG from Airflow's dashboard and trigger it. 
 
-# GCP's Transfer Service
+## GCP's Transfer Service
 
 To transfer data from multiple sources to Google's Cloud Storage. This is useful for Data Lake purposes.
 

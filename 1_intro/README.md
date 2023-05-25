@@ -305,8 +305,6 @@ ORDER BY
     "DOLocationID" ASC;
 ```
 
-_[Back to the top](#table-of-contents)_
-
 ## Terraform and Google Cloud Platform
 
 View `terraform` folder. Configuration done for AWS and GCP
@@ -320,5 +318,3 @@ Command commands:
 * `terraform destroy` : removes your stack from the infrastructure.
 
 For GCP: Cloud Storage Bucket for Data Lake and BigQuery Dataset for data warehouse.
-
-_[Back to the top](#table-of-contents)_

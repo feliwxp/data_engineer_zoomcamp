@@ -1,4 +1,5 @@
 # Other tasks
+- Ingest yellowtaxis, greentaxis, fhv and zones data into GCS
 - Create BigQuery tables from GCS files
 - Run SQL analysis 
 

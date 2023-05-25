@@ -1,6 +1,6 @@
 # 6_streaming
 
-## What is Kafka?
+## Kafka
 
 [Apache Kafka](https://kafka.apache.org/) is a ***message broker*** and ***stream processor***. Kafka is used to handle ***real-time data feeds***.
 
@@ -14,7 +14,7 @@ A producer pushes a message to a topic, which is then consumed by a consumer sub
 * ***Kafka broker*** is a machine (physical or virtualized) on which Kafka is running.
 * ***Kafka cluster*** is a collection of brokers (nodes) working together.
 
-## Installing and running Kafka
+## Kafka Demo
 
 Run `docker-compose up` Check the status of the deployment with `docker ps`. 
 
@@ -30,7 +30,7 @@ Now, create a demo of a Kafka system with a producer and a consumer and see how 
 1. On yet another terminal, run the `consumer.py` script again. The consumer group `'consumer.group.id.demo.2'` should now have 2 consumers. If you check the terminals, you should now see how each consumer receives separate messages because the second consumer has been assigned a partition, so each consumer receives the messages for their partitions only.
 1. Finally, run a 3rd consumer. You should see no activity for this consumer because the topic only has 2 partitions, so no partitions can be assigned to the idle consumer.
 
-## Running Avro
+## Avro Demo
 
 This introduces ***schema*** to the data so that producers can define the kind of data they're pushing and consumers can understand it.
 
@@ -42,7 +42,7 @@ The ***schema registry*** is a component that stores schemas and can be accessed
 
 When `producer.py` first created the topic and provided a schema, the registry associated that schema with the topic. By changing the schema, when the producer tries to subscribe to the same topic, the registry detects an incompatiblity because the new schema contains a string, but the scripts explicitly uses a `float` in `total_amount`, so it cannot proceed.
 
-## Running Kafka Streams?
+## Kafka Streams
 
 [Kafka Streams](https://kafka.apache.org/documentation/streams/) is a _client library_ for building applications and services whose input and output are stored in Kafka clusters. In other words: _Streams applications_ consume data from a Kafka topic and produce it back into another Kafka topic.
 

@@ -152,11 +152,11 @@ First, create a ***Data Source*** with BigQuery and connect to `production.fact_
 
 Widget 1: _Time Series Chart_ to show the amount of trips per day
 
-![time series chart](images/04.png)
+![time series chart](/images/04.png)
 
 Vast majority of trips are concentrated in a small interval; this is due to dirty data which has bogus values for `pickup_datetime`. We can filter out these bogus values by adding a _Date Range Control_, which we can drag and drop anywhere in the report, and then set the start date to January 1st 2019 and the end date to December 31st 2020.
 
-![date range control](images/05.png)
+![date range control](/images/05.png)
 
 Widget 2:  _Scorecard With Compact Numbers_ with the total record count in `fact_trips`
 Widget 3: _Pie chart_ displaying the `service_type` dimension using the record count metric
@@ -164,4 +164,4 @@ Widget 4: _Table With Heatmap_ using `pickup_zone` as its dimension
 Widget 5: _Stacked Column Bar_ showing trips per month. 
 Widget 6: _Drop-Down List Control_ and drag the `service_type` dimension to _Control field_. The drop-down control will now allow us to choose yellow, green or both taxi types. 
 
-![final report](images/06.png)
+![final report](/images/06.png)

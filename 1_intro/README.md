@@ -21,15 +21,6 @@ Log into database with [pgcli](https://www.pgcli.com/) with:
 pgcli -h localhost -p 5432 -u root -d ny_taxi
 ```
 
-## Ingesting data to Postgres
-
-Refer to Jupyter Notebook `upload-data.ipynb` file which does the following: 
-- Read csv
-- Convert time columns to timestamp format in Dataframe
-- Connect to postgres database using Alchemy 
-- Create table in postgres database
-- Insert data into postgres database in chunks
-
 ## Connecting pgAdmin and Postgres with Docker networking
 
 Now, let's use `pgAdmin` instead of `pgcli`. pgAdmin is run as a container alongside the Postgres container, on the same virtual network. 

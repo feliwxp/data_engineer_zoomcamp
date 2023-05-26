@@ -1,4 +1,7 @@
 # 6_streaming
+- Setup and run Kafka with producer, consumer and messages
+- Setup and run Arvo as schema registry
+- Setup and run Kafka streams where input and output are stored in Kafka clusters
 
 ## Kafka
 

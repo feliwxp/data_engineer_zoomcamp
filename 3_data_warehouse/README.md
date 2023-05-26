@@ -1,4 +1,5 @@
 # 3_data_warehouse
+- Automate the creation of BQ tables, both normal and partitioned, from the files stored in Data Lake
 
 ## OLAP vs OLTP
 

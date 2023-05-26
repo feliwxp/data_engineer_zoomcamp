@@ -1,4 +1,6 @@
 # 5_batch_processing
+- Setup and run Spark  
+- Submitting Spark jobs with Spark submit
 
 ## Batch vs Streaming
 

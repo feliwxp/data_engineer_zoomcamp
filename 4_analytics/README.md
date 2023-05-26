@@ -1,4 +1,8 @@
 # 4_analytics
+- Setting up dbt with BigQuery
+- Create dbt models 
+- Test & deploy dbt models
+- Visualize data using Google Data Studio
 
 ## What is dbt?
 

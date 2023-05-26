@@ -1,3 +1,45 @@
+# Project
+### 1_Intro
+- Ingest data into postgres database on postgres/pgadmin docker container network
+- Run some SQL commands to analyse data
+- Set up datalake and data warehouse on AWS and GCP using terraform
+
+### 2_data_ingestion
+- Ingesting data to local Postgres with Airflow
+- Ingesting data to GCP with Airflow 
+- Transfer data from multiple sources to GCS using GCP's transfer service
+
+### 3_data_warehouse
+- Automate the creation of BQ tables, both normal and partitioned, from the files stored in Data Lake
+
+### 4_analytics
+- Setting up dbt with BigQuery
+- Create dbt models 
+- Test & deploy dbt models
+- Visualize data using Google Data Studio
+
+### 5_batch_processing
+- Setup and run Spark  
+- Submitting Spark jobs with Spark submit
+
+### 6_streaming
+- Setup and run Kafka with producer, consumer and messages
+- Setup and run Arvo as schema registry
+- Setup and run Kafka streams where input and output are stored in Kafka clusters
+
+# Technologies 
+- Google Cloud Platform (GCP): Cloud-based auto-scaling platform by Google
+- Google Cloud Storage (GCS): Data Lake
+- BigQuery: Data Warehouse
+- Terraform: Infrastructure-as-Code (IaC)
+- Docker: Containerization
+- SQL: Data Analysis & Exploration
+- Prefect: Workflow Orchestration
+- dbt: Data Transformation
+- Spark: Distributed Processing
+- Kafka: Streaming
+- Airflow: Orchestration
+
 # Architecture
 
 ![architecture diagram](/images/01.png)
